@@ -10,7 +10,7 @@
     core-js-pure "^3.20.2"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.10.2", "@babel/runtime@^7.16.3":
+"@babel/runtime@^7.10.2", "@babel/runtime@^7.14.0", "@babel/runtime@^7.16.3":
   version "7.17.9"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.17.9.tgz#d19fbf802d01a8cb6cf053a64e472d42c434ba72"
   integrity sha512-lSiBBvodq29uShpWGNbgFdKYNiFDo5/HIYsaCEY9ff4sb10x9jizo2+pRrSyF4jKZCXqgzuqBOQKbUm90gQwJg==
@@ -1502,6 +1502,13 @@ react-dom@18.1.0:
   dependencies:
     loose-envify "^1.1.0"
     scheduler "^0.22.0"
+
+react-flippy@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/react-flippy/-/react-flippy-1.1.0.tgz#338035d8adeadfa8f2b2e2858723107fa557543d"
+  integrity sha512-fMaHrGL2HeyYq4ohl65b4EZG5JAawL6NMSiSOhhI68l54nortHvJBqHi5DeR1sF44/4RN2jeNsBXSXuBnOj7Vg==
+  dependencies:
+    "@babel/runtime" "^7.14.0"
 
 react-is@^16.13.1:
   version "16.13.1"
