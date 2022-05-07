@@ -13,7 +13,7 @@
   --gray-3: #324a5f;
   --gray-4: #1b2a41;
   --gray-5: #1C2127;
-  --gray-6: #030509;
+  --gray-6: #180421;
 
   --green: #85ffc7;
   --orange: #ff8552;
@@ -21,50 +21,22 @@
   --blue-1: #23c9ff;
   --blue-2: #20a4f3;
 
-  --primary: #1d428a;
-  --secondary: #c8102e;
+  --primary: #783384;
+  --secondary: #E92364;
 
-  --degrade-1: linear-gradient(90deg, #ff0a54 0%, #20a4f3 100%);
-  --degrade-2: linear-gradient(180deg, #1d428a 0%, #c8102e 100%);
+  --degrade-1: linear-gradient(90deg, var(--primary) 0%, var(--secondary) 100%);
+  --degrade-2: linear-gradient(180deg, var(--primary) 0%, var(--secondary) 100%);
 
   --shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 
-  --font-1: "Bebas Neue", sans-serif;
-  --font-2: "Comfortaa", sans-serif;
+  --font-: 'Ropa Sans', sans-serif;
+  --font-2: 'Rum Raisin', sans-serif;
+  --font-1: 'Saira Condensed', sans-serif;
+
   --border-radius: 0rem;
   --border-radius-top: 0;
   --border-radius-bottom: 0;
 
-  --hawks: #e13a3e;
-  --celtics: #007239;
-  --nets: #666;
-  --hornets: #00788c;
-  --bulls: #c60033;
-  --cavaliers: #b2004a;
-  --mavericks: #0064b1;
-  --nuggets: #0e2240;
-  --pistons: #1d428a;
-  --warriors: #ffa601;
-  --rockets: #ce1141;
-  --pacers: #002d62;
-  --clippers: #c8102e;
-  --lakers: #552583;
-  --grizzlies: #5d76a9;
-  --heat: #98002e;
-  --bucks: #00471b;
-  --timberwolves: #0c2340;
-  --pelicans: #002b5c;
-  --knicks: #006bb6;
-  --thunder: #007ac1;
-  --magic: #3578c0;
-  --sixers: #006bb6;
-  --suns: #1d1160;
-  --blazers: #de2032;
-  --kings: #5b2b82;
-  --spurs: #999;
-  --raptors: #ce1141;
-  --jazz: #ffa601;
-  --wizards: #002b5c;
 }
 
 @media (max-width: 1080px) {

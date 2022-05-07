@@ -12,8 +12,7 @@ export default class MyDocument extends Document {
             crossOrigin="true"
           />
           <link
-            href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comfortaa:wght@300;400;500;600;700&display=swap"
-            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Ropa+Sans:ital@0;1&family=Rum+Raisin&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap"            rel="stylesheet"
           />
           <link rel="shortcut icon" href="/fav.svg" type="image/svg" />
         </Head>
