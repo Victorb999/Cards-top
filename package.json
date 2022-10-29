@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 8080",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -12,13 +12,16 @@
     "axios": "^0.27.2",
     "next": "12.1.6",
     "react": "18.1.0",
+    "react-animated-3d-card": "^1.0.2",
     "react-dom": "18.1.0",
     "react-flippy": "^1.1.0",
+    "react-motion": "^0.5.2",
     "sass": "^1.51.0"
   },
   "devDependencies": {
     "@types/node": "^17.0.31",
     "@types/react": "^18.0.9",
+    "@types/react-motion": "^0.0.33",
     "eslint": "8.15.0",
     "eslint-config-next": "12.1.6",
     "typescript": "^4.6.4"
